@@ -1,0 +1,17 @@
+<h2>[entries.title]</h2>
+
+<p>
+פורסם ב-[entries.datetime] ע&quot;י [entries.uheader.author]
+
+<p>
+קישור קבוע
+<a href="[entries.permalink]">קישור קבוע</a>
+[if-any entries.tags]
+	| [
+	[for entries.tags]
+		<a href="[entries.tags.index_path]">[entries.tags.name]</a>
+	[end]
+	]
+[end]
+
+[entries.header]

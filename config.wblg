@@ -1,0 +1,61 @@
+#
+# General settings
+#
+[general]
+
+# The root URL of the blog. Available as [root_path] template variable.
+root:		http://blog.guyromm.com
+
+# The blog title. Exported to the template as [blog_title] variable.
+blog-title:	יומן טכני
+
+# The front page caption.
+front-page-caption:	אחרונים
+
+# Static content - moved to the destination immutable, directory structure
+# created as needed.
+static:	static/resume.txt static/license.txt
+
+# RSS2.0 feed file names
+feed:		rss20.xml
+
+# Number of entries in RSS feeds
+feed-size:	10
+
+# Number of tag ranks (for tag cloud display purposes). Each tag is assigned a
+# rank ranging from 1 (most popular) to this value (least popular) which is
+# exported to the template as [tags.rank].
+tag-ranks:	4
+
+# Index file names (the very first one and the consequent pages). '%(page)s' is
+# replaced with the page number.
+index-first-fname:	index.html
+index-rest-fname:	index%(page)s.html
+
+# Should the first index file name be appended to links (yes/no)? Default: no.
+# If yes, links would look like:    www.myblog.com/2008/01/01/entry/index.html
+# If no,                            www.myblog.com/2008/01/01/entry/
+append-first-index-fname-to-links:  no
+
+# Number of entries per index page
+entries-per-page:	10
+
+# A list of mandatory user tags in entries (space-separated)
+mandatory-headers: Author
+
+#
+# Template settings
+#
+[templates]
+
+# Directory containing templates (relative to the config file)
+path:		templates
+
+# Name of the template to render an entry
+entry:		entry.ezt
+
+# Name of the template to render an index
+index:		index.ezt
+
+# Name of the template for RSS feeds
+feed:		feed.ezt
