@@ -47,7 +47,7 @@ RSS2.0
 </div> <!-- paginator -->
 [end]
 
-
-
+<hr />
+<small style='text-align:center;width:100%;display:block;'>Powered by <a href="http://vss.73rus.com/wadcomblog/">WadcomBlog</a></small> 
 </body>
 </html>

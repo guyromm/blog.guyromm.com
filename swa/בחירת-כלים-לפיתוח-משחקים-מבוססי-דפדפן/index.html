@@ -1,32 +1,424 @@
 Title: בחירת טכנולוגיה לפיתוח משחקים מבוססי דפדפן
-Timestamp: 201105031942
-Tags: todo
+Timestamp: 201105041910
+Tags: משחקים,פלאש,אפל,מובייל ספרי,ג'אווהסקריפט,דפדפנים,ווב,קאנבס,flash,css3,svg,canvas,processing,processing.js,browser,web,html5,javascript,webkit,mobilesafari,ios,apple
 Author: guyromm
 
-<p>עם התבהרות העובדה שפלאש לא יהיה נוכח על גבי מערכת ההפעלה של הניידים של אפל, נתבקשתי לבדוק את המעשיות של יצירת סביבת משחק עשירה גרפית באמצעות טכנולוגיות דפדפן “טהורות”. בכנות, פלאש ואופיה הקנייני הסגור אינה נמנית עם הטכנולוגיות האהובות עלי, מה שהוסיף מוטיבציה להדגים שניתן לחיות גם בלעדיה..</p>
-
-<p>עם זאת, פלאש של אדובי היא פלטפורמה מפותחת וגדולה, שאינה מסתפקת במתן פלטפורמת הרצה אחידה שאינה תלויה בדפדפן ומערכת הפעלה, אלא גם סביבת פיתוח עשירה שמקשה מאוד על מציאת אלטרנטיבה ראויה.</p>
-
+<H2 CLASS="western" ALIGN=RIGHT><FONT FACE="Arial Unicode MS"><SPAN LANG="hi-IN">תיאור
+הבעיה</SPAN></FONT></H2>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עם
+התבהרות העובדה של</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">-Flash
+</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לא
+תהיה נוכחות על גבי </SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">iOS,
+</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מערכת
+ההפעלה של הניידים של אפל</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">נתבקשתי
+לבדוק את המעשיות שביצירת סביבת משחקים
+עשירה גרפית באמצעות טכנולוגיות דפדפן
+“טהורות”</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.
+</SPAN></SPAN></FONT></FONT>
+</P>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בכנות</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+Flash</SPAN></SPAN></FONT><FONT FACE="Hadasim CLM">, </FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עם
+אופיה הקנייני הסגור אינה נמנית עם
+הטכנולוגיות האהובות עלי</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מה
+שהוסיף מוטיבציה להדגים שניתן לחיות גם
+בלעדיה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">..</SPAN></SPAN></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עם
+זאת</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+Flash</SPAN></SPAN></FONT><FONT FACE="Hadasim CLM"> </FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">של
+אדובי היא פלטפורמה מפותחת וגדולה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שאיננה
+רק פלטפורמת הרצה אחידה שאינה תלויה
+בדפדפן ומערכת הפעלה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">אך</SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">
+</SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">גם
+סביבת פיתוח עשירה </SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">-
+</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שמקשה
+מאוד על מציאת אלטרנטיבה ראויה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כתוצאה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">החיפוש
+הטכנולוגי היווה נסיון לפשר בין הצורך
+לתמוך במספר גדול ככל האפשר של פלטפורמות
+הרצה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לבין
+הרצון להרכיב אוסף כלים וסביבת פיתוח
+ראויה ונוחה לעבודה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
 <!-- WADCOMBLOG: header-end !-->
 
-<p>כתוצאה, החיפוש הטכנולוגי היווה נסיון לפשר בין הצורך לתמוך במספר גדול ככל האפשר של פלטפורמות הרצה, לבין הרצון להרכיב אוסף כלים וסביבת פיתוח ראויה ונוחה לעבודה.
-
-<p>תחילה, עלינו להגדיר את הפלטפורמות בהן אנו מעונינים לתמוך. זוהי רשימתנו ההתחלתית:
-<ul>
-<li>אקספלורר 9+
-<li>פירפוקס 3.6+
-<li>אופרה 11
-<li>כרום
-<li>ספארי
-<li>iOS מובייל ספארי תחת
-<li>דפדפני וובקיט תחת אנדרויד
-</ul>
-
-<p>כמו כן, ישנו הצורך ליצור תהליך עבודה נח עם הגרפיקה שאנשי הקריאטיב יוצרים.
-
-<p>כרגע, אין אלטרנטיבות ראויות לסביבת האנימציה והתסרוט של פלאש, שמאפשרת להגדיר קוי זמן של אנימציה, לנהל מבנה אובייקטים, ונותנת אינטגרציה יפה עם האילוסטרטור וכלים אחרים של מעצבים.
-מרגע שהדרנו רגלינו מהשבילים הבדוקים והידועים שבין חבילות מסחריות, האחריות להגדיר את תהליכי יצוא הגרפיקה מן המעצב על התמכנת עוברת אלינו.
-
-<p>תחילה, בדקנו את SVG כשפה עילית
-
-
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">תחילה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">עלי</SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">
+</SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">להגדיר
+את הפלטפורמות בהן אנו </SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">(</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אנוכי
+והלקוח</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">)
+</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מעונינים
+לתמוך</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">זוהי
+רשימתנו ההתחלתית</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">:</SPAN></SPAN></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אקספלורר
+	</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">9+</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">פירפוקס
+	</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">3.6+</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אופרה
+	</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">11</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">כרום</SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">ספארי</SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MobileSafari</SPAN></SPAN></FONT><FONT FACE="Hadasim CLM">
+	</FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">תחת
+	</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">iOS</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">דפדפני
+	</SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">WebKit </FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">תחת
+	</SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM">Android</FONT></FONT></P>
+</UL>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כמו
+כן</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ישנו
+הצורך ליצור תהליך עבודה נח עם הגרפיקה
+שאנשי הקריאטיב יוצרים</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כרגע</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM">,
+</FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><A HREF="http://www.sencha.com/products/animator/">אין
+אלטרנטיבות ראויות</A> לסביבת האנימציה
+והתסרוט של פלאש</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שמאפשרת
+להגדיר קוי זמן של אנימציה</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><A HREF="http://en.wikipedia.org/wiki/Scene_graph"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לנהל
+מבנה אובייקטים</SPAN></SPAN></SPAN></FONT></FONT></A></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ונותנת
+אינטגרציה יפה עם </SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM">Illustrator
+</FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">וכלי
+מעצבים אחרים</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מרגע
+שהדרנו רגלינו משבילי המרת הפורמט הבדוקים
+והידועים שבין החבילות המסחריות</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">האחריות
+להגדיר את תהליכי יצוא הגרפיקה מן המעצב
+על התמכנת עוברת אלינו</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+<H2 CLASS="western" ALIGN=RIGHT><FONT FACE="Arial Unicode MS"><SPAN LANG="hi-IN"><B>החיפוש
+מתחיל</B></SPAN></FONT></H2>
+<P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">תחילה</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><A HREF="http://coin.to/svgtest/scene.html"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בדקנו
+את </SPAN></SPAN></SPAN></FONT></FONT></A></SPAN></FONT><A HREF="http://coin.to/svgtest/scene.html"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">SVG</SPAN></SPAN></FONT></FONT></A><FONT COLOR="#000000"><FONT FACE="Hadasim CLM">
+</FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כשפה
+עילית</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">למראית
+עין</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">יש
+לה יתרונות רבים</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">:</SPAN></SPAN></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שפה
+	עילית באופן יחסי</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.
+	</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בעלת
+	מודל אובייקטים היררכי משלה</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+	</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לאובייקטים
+	שבו ניתן להגדיר ארועים</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">תומכת
+	בפעולות בסיס גרפיות עשירות</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+	</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כגון
+	</SPAN></SPAN></SPAN></FONT></FONT><A HREF="http://www.w3.org/TR/SVG11/animate.html#AnimateMotionElement%20"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">תנועה
+	לאורך נתיב</SPAN></FONT></A></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">,
+	</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מורפינג
+	של צורות</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אגנוסטית
+	להפרדת מסך </SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">(</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">גרפיקת
+	וקטורים</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">)</SPAN></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מודל
+	האובייקטים דומה במידת</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">-</SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מה
+	למבנה אובייקטים של סצנת אנימציה</SPAN></SPAN></SPAN></FONT></SPAN></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ניתן
+	לעבוד עם </SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">SVG
+	</SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כפורמט
+	נתמך בעת יבוא קריאטיב מהגרפיקאי</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT COLOR="#000000"><FONT FACE="Hadasim CLM"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></P>
+</UL>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עם
+רשימת תכונות כזו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ניתן
+היה לחשוב שזאת טכנולוגיה פשוט אידאלית
+לצרכינו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עם
+זאת</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">החסרונות
+הבאים התגלו בעת בניית הבדיקה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">:</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">היישום
+	של הסטנדרט ורמת התכונות הנתמכת משתנה
+	מדפדפן לדפדפדן</SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">בפלטפורמות
+	מסוימות המהירות איטיות מאוד</SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מודל
+	האובייקטים </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">(DOM)
+	</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">וממשק
+	התכנות </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">(API)
+	</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">נתגלו
+	כמסובכים וקשים לשימוש לשם יצירת סצינות
+	דינמיות בהן יש יצירת ומחיקת אובייקטים
+	תכופה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+</UL>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בשל
+כך</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הוחלט
+לנסות גישה יותר נמוכה בצורת </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent"><A HREF="http://dev.w3.org/html5/canvas-api/canvas-2d-api.html">Canvas</A>,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ולהשתמש
+בספרייה כגון </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent"><A HREF="http://www.processingjs.org/">Processing.js</A>:</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Canvas
+	</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הנו
+	סנטדרט פשוט</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ולפיכך
+	נתמך אוניברסלית כמעט בכל הדפדפנים
+	המודרניים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Processing
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">מוסיף
+	רמת הפשטה שחסרה ב</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Canvas
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">לבדו</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">וכמו
+	כן תמיכה בייבוא גרפיקת </SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">SVG.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">באמצעות
+	</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Canvas
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">אנו
+	משיגים שליטה מלאה</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">עד
+	לרמת פיקסל בודד בבד הציור</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+</UL>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בעת
+יישום סצינת הניסוי ההתחלתית
+ב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">-Canvas/Processing
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">גיליתי
+שכלים רבים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שהיו
+נגישים מיידית ב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">SVG
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">היו
+חסרים ולפיכך נאלצתי לממש אותם בעצמי</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">:</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">אנימציה
+	של תנועה לאורך נתיב</SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+	<FONT COLOR="#000000"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">הצמדת
+	ארועים לאובייקטים כגון לחיצה ותנועת
+	עכבר</SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2">
+	<FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מורפינג
+	של צורות</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שהיה
+	מסובך ליישום</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הוחלף
+	באנימציית תמונות מתחלפות</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">התמונות
+	יוצרו באמצעות תוסף של </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent"><A HREF="http://inkscape.org/">Inkscape</A>
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">החינמית</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+</UL>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">היתי
+מצליח לחיות עם כל החסרונות הנ</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אם
+בתמורה היתי מקבל חויה עקבית וזהה בכל
+הפלטפורמות</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שניתן
+לשלוט בה עד הפיקסל הבודד</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לכן</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">החלטתי
+להמשיך בכתיבת <A HREF="http://coin.to/casinotest/table.html">דוגמה
+מורכבת ומציאותית יותר</A></SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לרוע
+המזל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הדמו
+החדש חשף בעיה שהיוותה מעצור מוחלט לצמד
+ה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">canvas/Processing:
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מהירות
+ריצה נמוכה להחריד בעת שימוש ב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Canvas
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">במוביילספארי
+של אפל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ביצעתי
+נסיונות מספר לשפר את ביצועי הדמו ע</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">י
+מניעת ציור מחדש של הרקע בכל פריים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הורדת
+כמות האובייקטים שעל המסך</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הסרה
+של טקסטורות מאובייקטים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">נסיונות
+אלו לא הביאו לתוצאה הרצויה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<H2 CLASS="western" ALIGN=RIGHT STYLE="text-decoration: none"><FONT FACE="Arial Unicode MS"><SPAN LANG="hi-IN">הפתרון</SPAN></FONT></H2>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בנקודה
+זהו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לאחר
+שהשקעתי זמן ומאמצים לא מבוטלים בהשגת
+מטרה פשוטה כביכול</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">נאלצתי
+לבדוק אם הגישה בה אני נוקט נכונה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הרי
+בבירור</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">החוליה
+החלשה ברשימת פלטפורמות היעד היא
+</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">MobileSafari
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">של
+אפל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ומכשירים
+ניידים אחרים להם מעבד איטי והיעדר אפשרות
+בחירה של דפדפן</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">במכשירים
+אלו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">גרפיקה
+מהירה ניתן לממש רק באמצעות שימוש במאיץ
+הגרפי</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">וב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">MobileSafari
+, </SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">רק
+פעולות על מודל האובייקטים </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">(DOM)
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">של
+</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">HTML
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עצמו
+מואצות ע</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">י
+החומרה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כתוצאה
+מהבנה זו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><A HREF="http://coin.to/casinotest/table2.html?nosound=1"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">דמו
+הבלאק</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></A></SPAN></FONT><A HREF="http://coin.to/casinotest/table2.html?nosound=1"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">-</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></A><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><A HREF="http://coin.to/casinotest/table2.html?nosound=1"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ג</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></A></SPAN></FONT><A HREF="http://coin.to/casinotest/table2.html?nosound=1"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">'</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></A><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><A HREF="http://coin.to/casinotest/table2.html?nosound=1"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ק
+שוכתב מחדש</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></A></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">והפעם
+באמצעות שימוש ב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">HTML,
+CSS3, </SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">והתווספו
+לו תמיכה בצליל ואפקטים של שקיפות</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לבסוף</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ההצלחה
+האירה פנינו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">..</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">כתוצאה
+מיידית</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">רמת
+הביצועים ב </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">MobileSafari
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">השתפרה
+פלאים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לאחר
+<A HREF="http://www.facebook.com/note.php?note_id=491691753919">קריאה
+נוספת</A> ואופטימיזציה נפרדת לכל דפדפן</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">האנימציה
+הפכה להיות חלקה מאוד</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">iOS
+4.x MobileSafari </SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">מואץ
+רק חלקית</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ולכן
+חשובה בחירה זהירה של צורת הגישה ל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">-DOM
+</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">על
+מנת להוציא את מיטב הביצועים מהדפדפן
+הזה</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אישית</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">הופתעתי
+מהצלחתי לממש את כל הדרישות של סצינה
+עשירה גרפית באמצעות טרנספורמציות </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">CSS
+“</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בלבד</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בעוד
+היתי עסוק בחיפוש </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">פתרון
+מושלם</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בצורת
+שפה או טכנולוגיה חדשה ומתקדמת</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">לא
+שמתי לב אל השפה הבסיסית ביותר של הווב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">עד
+שמיציתי את שאר האפשרויות</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אין
+ברצוני לומר ש</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">canvas
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">SVG
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אינם
+טובים</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אך
+למטרה הספציפית שלנו – כתיבת משחקים
+שעובדים על הפלטפורמות הנ</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+SVG </SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">נופלת
+בהיותה מתאימה לתרשימים מסובכים אך סטטיים
+באופן יחסי</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ו</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">canvas
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">פשוט
+לא עומדת מבחינת ביצועים בדור הנוכחי של
+מכשירי אפל</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">וכל
+זה משאיר אותנו עם טכנולוגיה אחת</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">:
+CSS3.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">באופן
+מקרי </SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">(</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">או
+שלא</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">)
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">בחירתי</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">שמוכתבת
+ע</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">&quot;</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">י
+הצורך למצוא מכנה משותף נמוך שיעבוד על
+הפלטפורמות הכריח אותנו גם לבנות תהליך
+המרה משלנו עבור גרפיקה וקריאטיב של
+המעצב</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+</SPAN></SPAN></SPAN></FONT></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">אך
+זה נושא למאמר אחר</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">..</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<H2 CLASS="western" ALIGN=RIGHT><FONT FACE="Arial Unicode MS"><SPAN LANG="hi-IN">קישורים
+לקוד המקור</SPAN></FONT></H2>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2; text-decoration: none">
+<FONT COLOR="#000000"><SPAN STYLE="background: transparent"><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">דוגמאות
+הקוד שבמאמר זה ניתנות להורדה מחשבון
+הגיטהאב של הכותב</SPAN></SPAN></SPAN></FONT></SPAN></FONT><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">:</SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+<P ALIGN=RIGHT STYLE="margin-bottom: 0in; widows: 2; orphans: 2"><BR>
+</P>
+<UL>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; background: transparent; widows: 2; orphans: 2">
+	<A HREF="https://github.com/guyromm/svg-test"><FONT COLOR="#000099"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><U><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">https://github.com/guyromm/svg-test</SPAN></SPAN></U></SPAN></FONT></FONT></SPAN></FONT></A><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent">
+	– </SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Lohit Hindi"><SPAN LANG="hi-IN">בדיקת
+	</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">SVG
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Lohit Hindi"><SPAN LANG="hi-IN">התחלתית</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="margin-bottom: 0in; background: transparent; widows: 2; orphans: 2">
+	<A HREF="https://github.com/guyromm/processing-test"><FONT COLOR="#000099"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><U><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">https://github.com/guyromm/processing-test</SPAN></SPAN></U></SPAN></FONT></FONT></SPAN></FONT></A><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent">
+	</SPAN></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">-
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Lohit Hindi"><SPAN LANG="hi-IN">בדיקת
+	</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">Canvas/Processing
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Lohit Hindi"><SPAN LANG="hi-IN">התחלתית</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT></P>
+	<LI><P ALIGN=RIGHT STYLE="background: transparent; widows: 2; orphans: 2">
+	<A HREF="https://github.com/guyromm/processing-casino-test"><FONT COLOR="#000099"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><U><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">https://github.com/guyromm/processing-casino-test</SPAN></SPAN></U></SPAN></FONT></FONT></SPAN></FONT></A><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent">
+	– </SPAN></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">דמו
+	שולחן הבלאקג</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">'</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">ק</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">.
+	Table.html </SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">לדוגמת
+	הקאנבס</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">,
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">ו</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">-table2.html
+	</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT><FONT FACE="Lohit Hindi"><SPAN LANG="he-IL"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="background: transparent"><FONT FACE="Hadasim CLM"><SPAN LANG="hi-IN">את
+	מימוש ה</SPAN></FONT></SPAN></SPAN></FONT></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Arial"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"><SPAN STYLE="background: transparent">CSS3.</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2">
+<FONT COLOR="#000000"><FONT FACE="Times New Roman"><SPAN STYLE="background: transparent"><BR></SPAN></FONT></FONT><BR>
+</P>
